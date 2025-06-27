@@ -7,15 +7,9 @@ tags:
 - js
 description: 
 ---
-# <samp>bun</samp>
+# bun
 
-::: details <samp>目录</samp>
-
-[[TOC]]
-
-:::
-
-<samp>**特点**</samp>
+**特点**
 
 1. Node 需要使用 `nvm` 进行版本控制，而 `bun` 可以直接升级自身
 
@@ -52,7 +46,7 @@ description:
    >
    > `--hot` 与 `--watch` 区别
    >
-   > <samp>**参考**</samp>：[Watch mode](https://bun.sh/docs/runtime/hot)
+   > **参考**：[Watch mode](https://bun.sh/docs/runtime/hot)
    >
    > - `bun --watch` 会在检测导入文件变化时重启整个进程，即硬重启。会保留初始运行时的参数和环境变量，发生崩溃时尝试自动重启进程；适用于需要完全重启的场景
    > - `bun --hot` 不会重启进程，即软重载。在检测到代码发生变化后，更新内部模块缓存并重新加载代码，同时保留所有全局状态，像 HTTP 服务器等状态不会丢失，刷新速度快，适用于需要高效开发，保持进程状态的场景
@@ -63,9 +57,9 @@ description:
    console.log(Bun.version);
    ```
 
-## <samp>配置</samp>
+## 配置
 
-<samp>**建议的编译选项**</samp>：支持顶级 `await`、JSX 和 ts 导入
+**建议的编译选项**：支持顶级 `await`、JSX 和 ts 导入
 
 ::: code-group
 
@@ -102,7 +96,7 @@ description:
 
 :::
 
-## <samp>配置读取</samp>
+## 配置读取
 
 - Node 项目需要读取配置文件 `.env` 时，需要引入 `dotenv`
 
@@ -122,7 +116,7 @@ description:
   dotenv.config({ path: './.env' });
   ```
 
-  <samp>**完整代码**</samp>
+  **完整代码**
 
   ```js
   import express from 'express';
@@ -151,9 +145,9 @@ description:
   node --env-file=./.env server.js
   ```
 
-- <samp>**bun 读取配置**</samp>：使用 bun 的全局变量 `Bun` 进行读取
+- **bun 读取配置**：使用 bun 的全局变量 `Bun` 进行读取
 
-  <samp>**依赖**</samp>
+  **依赖**
 
   ```js
   "devDependencies": {
@@ -167,7 +161,7 @@ description:
   }
   ```
 
-  <samp>**完整代码**</samp>
+  **完整代码**
 
   ```ts
   import type { Express, Request, Response } from 'express';
@@ -190,7 +184,7 @@ description:
   });
   ```
 
-## <samp>bun test</samp>
+## bun test
 
 - 当运行 `bun test` 时，将自动递归查找文件目录中的 `*.test.{js|jsx|ts|tsx}`、`*._test.{js|jsx|ts|tsx}`、`*.spec.{js|jsx|ts|tsx}`、`*._spec.{js|jsx|ts|tsx}` 测试文件
 
@@ -268,9 +262,9 @@ description:
 
   :::
 
-  > <samp>Node 中的 `beforeEach` 会在所有用例执行前执行完毕，而 bun 的 `beforeEach` 会在用例之间穿插执行 </samp>
+  > Node 中的 `beforeEach` 会在所有用例执行前执行完毕，而 bun 的 `beforeEach` 会在用例之间穿插执行 
 
-## <samp>SQLite</samp>
+## SQLite
 
 Bun 原生实现了 SQLite3 驱动程序，使用需要从内置 `bun:sqlite` 模块导入
 
