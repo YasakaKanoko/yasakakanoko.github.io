@@ -11,7 +11,7 @@ aside: false
 Hey! I'm shuiyuan.  
 Find me on <a href="https://x.com/shuiyuan_5173" target="_blank"><img src="https://img.shields.io/badge/X-%23000000.svg?logo=X&logoColor=white" alt="HTML5" style="display: inline-block;"/></a>
 
-<BackgroundImage imageUrl="https://www.loliapi.com/acg/pc/" opacity="1" position="center" size="cover" repeat="no-repeat" />
+<BackgroundImage imageUrl="https://www.loliapi.com/acg/" opacity="1" position="center" size="cover" repeat="no-repeat" />
 ---
 
 ## <samp>Stacks</samp>
