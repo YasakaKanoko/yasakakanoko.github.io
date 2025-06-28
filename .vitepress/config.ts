@@ -6,8 +6,8 @@ const pageSize = 10
 const isProd = process.env.NODE_ENV === 'production'
 
 export default defineConfig({
-    title: 'Atomsphere',
-    description: "Welcome to my personal blog, where I share insights, experiences, and expertise on [your topics, e.g., technology, lifestyle, travel, or personal growth]. Explore engaging articles, practical tips, and thought-provoking ideas crafted to inspire and inform. Updated regularly with fresh content, this blog is your go-to resource for [specific niche or value, e.g., innovative tech solutions, mindful living, or creative storytelling]. Join a community of curious readers and dive into content designed to spark curiosity and connection.",
+    title: 'Atmosphere',
+    description: "Banished Knight | 失乡骑士",
     lang: 'en-US',
     markdown: {
         // 数学公式
