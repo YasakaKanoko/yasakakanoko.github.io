@@ -1,6 +1,6 @@
 ---
 date: 2025-06-29
-title: bun
+title: Bun
 category: Angel Beats!
 tags:
 - ts
