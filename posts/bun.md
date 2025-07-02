@@ -1,13 +1,19 @@
 ---
 date: 2025-06-29
 title: bun
-category: js
+category: Angel Beats!
 tags:
-- bun
+- ts
 - js
-description: Bun is a fast JavaScript runtime
+description: Bun is a fast JavaScript runtime.
 ---
 # **Bun**
+
+::: details 目录
+
+[[TOC]]
+
+:::
 
 ## **Installation**
 
