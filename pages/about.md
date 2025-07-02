@@ -4,7 +4,7 @@ title: About
 description: About Me
 aside: false
 ---
-# <samp>About Me</samp>
+# About Me
 
 ---
 
@@ -14,7 +14,7 @@ Find me on <a href="https://x.com/shuiyuan_5173" target="_blank"><img src="https
 <BackgroundImage imageUrl="https://www.loliapi.com/acg/" opacity="1" position="center" size="cover" repeat="no-repeat" />
 ---
 
-## <samp>Stacks</samp>
+## Stacks
 
 <p>
   <img src="https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white" alt="HTML5" style="display: inline-block;" />&nbsp;
