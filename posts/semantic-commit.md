@@ -1,7 +1,7 @@
 ---
 date: 2025-07-02
 title: Semantic Commits
-category: Angel Beats!
+category: Guilty Crown
 tags:
 - git
 description: Semantic Commits are commit messages with human and machine readable meaning, which follow particular conventions.
@@ -113,7 +113,7 @@ docs: rename @nodoc to @docs-private (#61194)
 
 `feat`：表示向后兼容的或功能相关的生产变化 (这和语义化版本中的 [`MINOR`](https://semver.org/lang/zh-CN/#摘要) 相对应)
 
-```sh
+```txt
 feat(devtools): defer blocks  support (#60629)
 feat(common): Allow passing ScrollOptions to ViewportScroller (#61002)
 feat(core): rename afterRender to afterEveryRender and stabilize (#60999)
