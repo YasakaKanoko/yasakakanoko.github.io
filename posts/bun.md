@@ -1,7 +1,7 @@
 ---
 date: 2025-06-29
 title: Bun
-category: Angel Beats!
+category: JoJo's Bizarre Adventure
 tags:
 - ts
 - js
