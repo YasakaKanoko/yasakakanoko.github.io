@@ -31,8 +31,13 @@
 .VPNav .VPNavBar a span,
 .VPContent .aside-content,
 .vp-doc {
-    font-family: monospace, "Courier New", Courier, monospace;
+    /* font-family: Lyon-Text, Georgia, "Songti SC", SimSun, serif; */
+    font-family: iawriter-mono, Nitti, Menlo, Courier, monospace;
+
 }
+/* code{
+    font-family: iawriter-mono, Nitti, Menlo, Courier, monospace;
+} */
 
 .vp-doc a {
     color: var(--vp-c-text-1);
