@@ -1,11 +1,11 @@
 ---
 date: 2025-06-29
-title: Bun
+title: "Bun"
 category: JoJo's Bizarre Adventure
 tags:
 - ts
 - js
-description: Bun is a fast JavaScript runtime.
+description: "Bun 是一个 JavaScript 运行时。它同时可以作为测试框架，也可以作为包管理器。诸如数据库、包管理器、WebAPI 等功能都集成在一个工具中。"
 ---
 # **Bun**
 
@@ -778,8 +778,7 @@ db.each(
 
 ## 模块化
 
-- bun 支持 ESM 和 commonjs 互操作性
-  - [CommonJS is not going away](https://bun.sh/blog/commonjs-is-not-going-away)
+- bun 支持 ESM 和 commonjs 互操作性：[CommonJS is not going away](https://bun.sh/blog/commonjs-is-not-going-away)
 
 - Node.js v22 新特性：[Loading ECMAScript modules using `require()`](https://nodejs.org/api/modules.html#loading-ecmascript-modules-using-require)
 
