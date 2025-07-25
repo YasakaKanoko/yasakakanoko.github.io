@@ -43,7 +43,7 @@ git commit -m "fix(core): remove deprecated and defunct wtf* apis" -m "These api
 
 ### 浏览历史记录
 
-- 显示所有以 `feat`、`fix`、`pref` 开头的消息
+- 显示所有以 `feat`、`fix`、`perf` 开头的消息
 
   ```sh
   git log --oneline --grep "^feat|^fix|^perf"
