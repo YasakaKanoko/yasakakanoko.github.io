@@ -4,7 +4,7 @@ title: "Neumorphism 设计优化"
 category: Charlotte
 tags:
 - CSS
-description: "Neumorphism 是一种应用于软件、网站、 App 的 UI 设计中备受瞩目的视觉趋势。这种风格将单色调颜色方案、低对比度和阴影结合，使得 UI 呈现出柔和、突出和嵌入的视觉效果。"
+description: "总结 Neumorphism UI 设计风格。"
 ---
 # Neumorphism
 

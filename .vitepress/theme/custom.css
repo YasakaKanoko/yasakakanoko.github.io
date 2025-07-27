@@ -83,7 +83,7 @@ a[rel~='noreferrer']:visited {
 }
 
 .content a[rel~='noreferrer']:hover {
-    color: #888;
+    color: #53a3f2;
 }
 
 h1 {
