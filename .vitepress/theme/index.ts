@@ -10,15 +10,15 @@ import BackgroundImage from './components/BackgroundImage.vue'
 import './custom.css'
 
 export default {
-    ...DefaultTheme,
-    Layout: NewLayout,
-    enhanceApp({ app }) {
-        // register global compoment
-        app.component('Tags', Tags)
-        app.component('Category', Category)
-        app.component('Archives', Archives)
-        app.component('Page', Page)
-        app.component('Comment', Comment)
-        app.component('BackgroundImage', BackgroundImage)
-    }
+  ...DefaultTheme,
+  Layout: NewLayout,
+  enhanceApp({ app }) {
+    // register global compoment
+    app.component('Tags', Tags)
+    app.component('Category', Category)
+    app.component('Archives', Archives)
+    app.component('Page', Page)
+    app.component('Comment', Comment)
+    app.component('BackgroundImage', BackgroundImage)
+  }
 }
