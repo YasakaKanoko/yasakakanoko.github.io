@@ -1,5 +1,5 @@
 {
-	"editor.formatOnSave": true,
+	"editor.formatOnSave": false,
 	"editor.defaultFormatter": "biomejs.biome",
 	"[javascript]": {
 		"editor.defaultFormatter": "biomejs.biome"
@@ -17,6 +17,5 @@
 		"source.fixAll": "explicit",
 		"source.organizeImports.biome": "always"
 	},
-	"frontMatter.dashboard.openOnStart": false,
-	"commentTranslate.hover.enabled": false
+	"frontMatter.dashboard.openOnStart": false
 }
